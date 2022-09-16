@@ -9,13 +9,12 @@ body{
 }
 
 .nav{
-    width: 100vw;
     position: sticky;
     z-index: 2;
     top:0px;
 }
 .logo-box{
-    padding: 0px 0px 0px 25px;
+    padding: 0 0 0 1.5vw;
 }
 .logo{
     min-height: 40px;
@@ -24,7 +23,6 @@ body{
 }
 .title{
     display: flex;
-    width: 100vw;
     background: #0004;
     align-items: center;
     padding: 5px;
@@ -115,19 +113,19 @@ body{
     width: 40vw;
     height: 40vw;
     margin-right: 0px;
-    background: url(img1.jpeg);
+    background-image: url(img1.jpeg);
     box-sizing: border-box;
 }
 .card2{
     position: relative;
-    background: url(img3.jpg);
+    background-image: url(img3.jpg);
     width: 40vw;
     height: 18.75vw;
     box-sizing: border-box;
 }
 .card3{
     position: relative;
-    background: url(img4.jpg);
+    background-image: url(img4.jpg);
     width: 18.75vw;
     height: 18.75vw;
     box-sizing: border-box;
@@ -137,15 +135,50 @@ body{
     position: relative;
     width: 18.75vw;
     height: 18.75vw;
-    background: url(img5.jpg);
+    background-image: url(img5.jpg);
     margin: 0;
     box-sizing: border-box;
 }
 .visit-btn{
     position: absolute;
-    size: 6vw;
+    size: 8vw;
     bottom: 2vw;
     right: 2vw;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: #ffca2f;
+    border: none;
+}
+
+.help{
+    position: fixed;
+    right: 2vw;
+    bottom: 4vw;
+    font-size: xx-large;
+    background-color: #ffca2f;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+}
+.help:hover{
+    right: 1vw;
+    bottom: 3vw;
+    width: 6vw;
+    height: 6vw;
+    font-size: xxx-large;
+}
+.help-icon-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.help-icon{
+    width: 100%;
 }
 
 
@@ -161,6 +194,6 @@ footer{
 .socials{
     display: flex;
     padding: 1px;
-    width: 10vw;
+    width: 8vw;
     justify-content: space-between;
 }
